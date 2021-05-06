@@ -26,7 +26,7 @@ public class Sale {
 	private LocalDate date;
 	
 	@ManyToOne
-	@JoinColumn(name="saller_id")
+	@JoinColumn(name="seller_id")
 	
 	private Seller seller;
 	
