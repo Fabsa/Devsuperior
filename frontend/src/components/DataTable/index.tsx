@@ -24,7 +24,7 @@ const DataTable = () => {
             })
 
 
-    }, [activePage]);
+    }, [activePage]);//muda a paginação comunicação de componentes por chamada de função.
 
     const changePage =(index:number)=>{setActivePage(index);}
 
